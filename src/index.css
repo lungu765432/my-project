@@ -20,8 +20,9 @@ body {
   .navbar ul {
     list-style: none;
     display: flex;
+    font-size: 1.3rem;
     justify-content: center;
-    gap: 1.25rem;
+    gap: 9rem;
     padding: 0;
   }
   .navbar a {
@@ -39,7 +40,9 @@ body {
   }
   .product {
     background: rgba(255, 255, 255, 0.2);
-    padding: 0.9375rem;
+    padding: 1.5rem;
+    width: 12rem; /* Ajustează lățimea */
+    height: auto; /* Păstrează proporțiile */
     border-radius: 0.625rem;
     text-align: center;
     cursor: pointer;

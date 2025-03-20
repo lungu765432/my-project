@@ -1,11 +1,19 @@
-import React from "react";
-import NavBar from "../components/navbar/navbar";
-export default function Panouri() {
+import { Link } from "react-router-dom";
+
+function Panels() {
   return (
     <div>
-      <NavBar />
       <h1>3D Panouri</h1>
-      <p>Informații despre panouri 3D.</p>
+      <p>Aici sunt detaliile despre panourile 3D.</p>
+
+      <h2>Alte categorii</h2>
+      <ul>
+        <li><Link to="/facade">Fațade</Link></li>
+        <li><Link to="/elements">Elemente Decorative</Link></li>
+        <li><Link to="/contacts">Cărămidă Decorativă</Link></li>
+      </ul>
     </div>
   );
 }
+
+export default Panels;

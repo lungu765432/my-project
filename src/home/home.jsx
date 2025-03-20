@@ -1,7 +1,6 @@
 // src/pages/Home.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../components/navbar/navbar";
 import "../assets/styles.css";
 import bg4 from "../images/bg4.jpg";
 import fatada from "../images/111.jpg";
@@ -12,7 +11,6 @@ import caramida from "../images/5.png";
 export default function Home() {
   return (
     <div>
-      <NavBar />
       <div className="products">
         <Link to="/fatada" className="product">
           <img src={fatada} alt="Fațadă" />
