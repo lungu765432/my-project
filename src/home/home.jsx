@@ -5,13 +5,13 @@ import NavBar from "../components/navbar/navbar";
 import "../assets/styles.css";
 import bg4 from "../images/bg4.jpg";
 import fatada from "../images/111.jpg";
-import elemente from "../images/112.png";
-import panouri from "../images/111.jpg";
-import caramida from "../images/112.png";
+import elemente from "../images/33.png";
+import panouri from "../images/112.png";
+import caramida from "../images/5.png";
 
 export default function Home() {
   return (
-    <div className="home" style={{ backgroundImage: `url(${bg4})` }}>
+    <div>
       <NavBar />
       <div className="products">
         <Link to="/fatada" className="product">
@@ -31,6 +31,6 @@ export default function Home() {
           <p>Cărămidă Decorativă</p>
         </Link>
       </div>
-    </div>
+      </div>
   );
 }
