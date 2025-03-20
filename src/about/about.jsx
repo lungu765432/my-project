@@ -1,14 +1,11 @@
 import React from "react";
-import Footer from "../components/layout/Footer.jsx";
-import NavBar from "../components/layout/NavBar.jsx";
-
-export default function AboutPage() {
+import NavBar from "../components/navbar/navbar";
+export default function About() {
   return (
-    <>
+    <div>
       <NavBar />
-      <h1>О нас</h1>
-      <p>Информация о компании.</p>
-      <Footer />
-    </>
+      <h1>About</h1>
+      <p>Despre noi.</p>
+    </div>
   );
 }

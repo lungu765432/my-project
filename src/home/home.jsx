@@ -1,35 +1,36 @@
+// src/pages/Home.jsx
 import React from "react";
-import NavBar from "../navbar/NavBar.jsx";
-import Footer from "../footer/Footer.jsx";
-import "../assets/style.css"; // Подключаем стили
+import { Link } from "react-router-dom";
+import NavBar from "../components/navbar/navbar";
+import "../assets/styles.css";
+import bg4 from "../images/bg4.jpg";
+import fatada from "../images/111.jpg";
+import elemente from "../images/112.png";
+import panouri from "../images/111.jpg";
+import caramida from "../images/112.png";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <>
+    <div className="home" style={{ backgroundImage: `url(${bg4})` }}>
       <NavBar />
-      <div className="hero">
-        <img src="/images/33.png" alt="Grand Fațade" className="logo" />
-        <h2>Украшаем Ваш мир</h2>
-      </div>
       <div className="products">
-        <div className="product">
-          <img src="/images/33.png" alt="Фасадный кирпич" />
-          <p>Фасадный кирпич</p>
-        </div>
-        <div className="product">
-          <img src="/images/33.png" alt="3D панели" />
-          <p>3D панели</p>
-        </div>
-        <div className="product">
-          <img src="/images/112.png" alt="Декоративные элементы" />
-          <p>Декоративные элементы</p>
-        </div>
-        <div className="product">
-          <img src="/images/111.jpg" alt="Декоративный кирпич" />
-          <p>Декоративный кирпич</p>
-        </div>
+        <Link to="/fatada" className="product">
+          <img src={fatada} alt="Fațadă" />
+          <p>Fațadă</p>
+        </Link>
+        <Link to="/elemente" className="product">
+          <img src={elemente} alt="Elemente Decorative" />
+          <p>Elemente Decorative</p>
+        </Link>
+        <Link to="/panouri" className="product">
+          <img src={panouri} alt="3D Panouri" />
+          <p>3D Panouri</p>
+        </Link>
+        <Link to="/caramida" className="product">
+          <img src={caramida} alt="Cărămidă Decorativă" />
+          <p>Cărămidă Decorativă</p>
+        </Link>
       </div>
-      <Footer />
-    </>
+    </div>
   );
 }

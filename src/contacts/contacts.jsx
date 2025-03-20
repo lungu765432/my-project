@@ -1,14 +1,11 @@
 import React from "react";
-import Footer from "../components/layout/Footer.jsx";
-import NavBar from "../components/layout/NavBar.jsx";
-
-export default function ContactsPage() {
+import NavBar from "../components/navbar/navbar";
+export default function Contacts() {
   return (
-    <>
+    <div>
       <NavBar />
-      <h1>Контакты</h1>
-      <p>Свяжитесь с нами.</p>
-      <Footer />
-    </>
+      <h1>Contacts</h1>
+      <p>Informații despre contact.</p>
+    </div>
   );
 }
