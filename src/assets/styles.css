@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg4.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .hero {
+    padding: 50px;
+    color: white;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+  }
+  
