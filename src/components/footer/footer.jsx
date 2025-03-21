@@ -1,10 +1,10 @@
 import React from "react";
-import "../../assets/styles.css"; // Importăm CSS-ul global
+import "../../assets/styles.css";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Grand Fațade. All rights reserved.</p>
+      <p> 2025 Grand Fațade</p>
     </footer>
   );
 }

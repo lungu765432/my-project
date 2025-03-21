@@ -9,10 +9,10 @@ body {
   
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
               url("../images/bg4.jpg");
-  background-size: cover; /* Face imaginea să acopere tot ecranul */
-  background-position: center; /* O centrează */
-  background-repeat: no-repeat; /* Evită repetarea */
-  background-attachment: fixed; /* Fixează fundalul pe scroll */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 
@@ -46,11 +46,12 @@ body {
 }
 
 .product {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   padding: 0.9375rem;
   border-radius: 0.625rem;
   text-align: center;
   cursor: pointer;
+  
 }
 .product img {
   width: 9.375rem;

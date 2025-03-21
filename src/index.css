@@ -26,27 +26,37 @@ body {
     padding: 0;
   }
   .navbar a {
-    color: white;
+    color: #b68a3c;
     text-decoration: none;
     font-weight: bold;
   }
   
   .products {
     display: flex;
-    justify-content: center;
-    gap: 1.25rem;
-    margin-top: 3.125rem;
-    flex-wrap: wrap;
+    justify-content:center;
+    gap:3 rem !important;
+    margin-top: 3 rem !important;
+    flex-wrap:wrap;
   }
   .product {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 1.5rem;
-    width: 12rem; /* Ajustează lățimea */
-    height: auto; /* Păstrează proporțiile */
-    border-radius: 0.625rem;
-    text-align: center;
-    cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 3 rem !important;
+  margin-top: 3 rem !important;
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 12rem;
+  height: auto;
+  border-radius: 1rem;
+  cursor: pointer;
+
   }
+
   .product img {
     width: 9.375rem;
     height: auto;
@@ -63,5 +73,4 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
+  } 
