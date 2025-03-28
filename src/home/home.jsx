@@ -3,10 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/styles.css";
 import bg4 from "../images/bg4.jpg";
-import fatada from "../images/111.png";
-import elemente from "../images/33.png";
-import panouri from "../images/112.png";
-import caramida from "../images/5.png";
+import fatada from "../images/photo11.png";
+import elemente from "../images/photo7.png";
+import panouri from "../images/photo4.png";
+import caramida from "../images/photos6.webp";
 
 export default function Home() {
   return (
